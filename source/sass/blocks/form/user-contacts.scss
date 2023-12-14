@@ -54,7 +54,7 @@
 .user-contacts__caption {
   cursor: pointer;
 
-  &:hover .user-phone {
+  &:hover ~ .user-phone {
     &::after {
       background-color: #62d1ba;
       opacity: 1;
@@ -65,8 +65,8 @@
     border-bottom: 2px solid #62d1ba;
   }
 
-  &:hover .user-email,
-  &:active .user-email {
+  &:hover ~ .user-email,
+  &:active ~ .user-email {
     &::after {
       background-color: #62d1ba;
       opacity: 1;
